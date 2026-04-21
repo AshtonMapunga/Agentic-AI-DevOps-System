@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav style={{
       position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
-      background: 'rgba(5, 5, 5, 0.75)', backdropFilter: 'blur(16px)', -webkitBackdropFilter: 'blur(16px)',
+      background: 'rgba(5, 5, 5, 0.75)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)',
       borderBottom: '1px solid var(--border-color)', height: '76px'
     }}>
       <div className="container flex-between" style={{ height: '100%' }}>
